@@ -1,0 +1,39 @@
+2024-05-16 14:18:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORMS" not found (this database is empty); SQL statement:
+SELECT 1 FROM dorms [42104-212]
+2024-05-16 14:18:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE dorms (id INTEGER [*]IDENTITY NOT NULL, capacity INTEGER NOT NULL, gender VARCHAR(10) NOT NULL, name VARCHAR(255) NOT NULL, PRIMARY KEY (id))"; expected "ARRAY, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, DEFAULT, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE dorms (id INTEGER IDENTITY NOT NULL, capacity INTEGER NOT NULL, gender VARCHAR(10) NOT NULL, name VARCHAR(255) NOT NULL, PRIMARY KEY (id)) [42001-212]
+2024-05-16 14:18:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STUDENTS" not found (this database is empty); SQL statement:
+SELECT 1 FROM students [42104-212]
+2024-05-16 14:18:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORMS" not found; SQL statement:
+ALTER TABLE students ADD CONSTRAINT FK_students_dorm_id FOREIGN KEY (dorm_id) REFERENCES dorms (id) [42102-212]
+2024-05-16 14:18:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORMS" not found; SQL statement:
+DELETE FROM dorms [42102-212]
+2024-05-16 14:18:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORMS" not found; SQL statement:
+SELECT 1 FROM dorms [42102-212]
+2024-05-16 14:18:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE dorms (id INTEGER [*]IDENTITY NOT NULL, capacity INTEGER NOT NULL, gender VARCHAR(10) NOT NULL, name VARCHAR(255) NOT NULL, PRIMARY KEY (id))"; expected "ARRAY, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, DEFAULT, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE dorms (id INTEGER IDENTITY NOT NULL, capacity INTEGER NOT NULL, gender VARCHAR(10) NOT NULL, name VARCHAR(255) NOT NULL, PRIMARY KEY (id)) [42001-212]
+2024-05-16 14:18:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORMS" not found; SQL statement:
+DELETE FROM dorms [42102-212]
+2024-05-16 14:23:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORMS" not found; SQL statement:
+SELECT 1 FROM dorms [42102-212]
+2024-05-16 14:23:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE dorms (id INTEGER [*]IDENTITY NOT NULL, capacity INTEGER NOT NULL, gender VARCHAR(10) NOT NULL, name VARCHAR(255) NOT NULL, PRIMARY KEY (id))"; expected "ARRAY, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, DEFAULT, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE dorms (id INTEGER IDENTITY NOT NULL, capacity INTEGER NOT NULL, gender VARCHAR(10) NOT NULL, name VARCHAR(255) NOT NULL, PRIMARY KEY (id)) [42001-212]
+2024-05-16 14:23:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORMS" not found; SQL statement:
+DELETE FROM dorms [42102-212]
+2024-05-16 14:29:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DORMS" not found; SQL statement:
+SELECT 1 FROM dorms [42102-212]
+2024-05-16 14:29:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SEQUENCE" not found; SQL statement:
+SELECT 1 FROM SEQUENCE [42102-212]
